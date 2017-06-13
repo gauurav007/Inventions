@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic18">
+
+    <!--<android.support.v7.widget.Toolbar
+        android:background="@android:color/holo_orange_dark"
+        android:id="@+id/stagetwotools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="MediumText"
+                android:id="@+id/stagetwotextView2"
+                android:layout_gravity="left"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                android:textColor="@android:color/white"
+                android:gravity="left" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Medium Text"
+                android:id="@+id/stagetwotextView"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="right|top" />
+
+
+
+
+        </FrameLayout>
+
+    </android.support.v7.widget.Toolbar>
+-->
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="110dp"
+        android:paddingTop="10dp">
+
+        <LinearLayout
+            android:id="@+id/homeframe1"
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:background="@android:color/holo_red_dark"
+            android:layout_marginTop="20dp"></LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_gravity="center"
+
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:paddingTop="10dp">
+
+            <LinearLayout
+                android:id="@+id/homeframe2"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:layout_marginLeft="90dp"
+                android:background="@android:color/holo_orange_light"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/homeframe3"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:layout_marginRight="90dp"
+                android:background="@android:color/holo_red_dark"></LinearLayout>
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+           android:paddingTop="20dp" >
+
+
+            <LinearLayout
+                android:id="@+id/homeframe4"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:background="@android:color/holo_orange_light"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/homeframe5"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="right"
+                android:background="@android:color/holo_red_dark"></LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+<!--//add relative here-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="bottom"
+        >
+<!--
+        <VideoView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/videoview22">
+        </VideoView>-->
+
+     <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:layout_gravity="bottom">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/homeframe6"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_bright"
+                    android:layout_height="match_parent"></LinearLayout>
+                </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+                <LinearLayout
+                    android:id="@+id/homeframe7"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_light"
+                    android:layout_height="match_parent"></LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/homeframe8"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_purple"></LinearLayout>
+                </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/homeframe9"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_green_light"></LinearLayout>
+                </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/homeframe10"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_red_light"
+                    android:layout_height="match_parent"></LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/homeframe11"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_green_light"
+                    android:layout_height="match_parent"></LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/homeframe12"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_blue_light"
+                    android:layout_height="match_parent"></LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <android.support.v7.widget.CardView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                card_view:cardBackgroundColor="#00ffffff"
+                android:focusable="true"
+                android:layout_margin="10dp"
+                android:clickable="false"
+                app:cardElevation="8dp"
+                >
+
+                <LinearLayout
+                    android:id="@+id/homeframe13"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/holo_orange_dark"
+                    android:layout_height="match_parent"></LinearLayout>
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        </LinearLayout>
+</RelativeLayout>
+    <!--//end here relative-->
+    <LinearLayout
+        android:id="@+id/stagetwothread"
+        android:orientation="vertical"
+        android:layout_width="15dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@android:color/holo_blue_bright"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/stagetwotimeplate"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Letss Goo"
+
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            />
+
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Medium Text"
+            android:id="@+id/stagetwotextView"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+
+            />
+    </LinearLayout>
+
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="MediumText"
+        android:id="@+id/stagetwotextView2"
+        android:layout_gravity="left"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:textSize="20dp"
+        android:typeface="monospace"
+
+        android:gravity="left" />
+-->
+    <LinearLayout
+        android:id="@+id/stage2_yourtime_layout"
+        android:orientation="vertical"
+        android:layout_width="110dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_green_light"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="MediumText"
+            android:id="@+id/stagetwotextView2"
+            android:layout_gravity="center_horizontal"
+             android:textSize="20dp"
+            android:typeface="monospace"
+
+            android:gravity="left" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/stagetwo_winning_alert_box"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/pic18"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="You won!!!!!"
+            android:textSize="50dp"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="50dp"
+            android:id="@+id/textView4"
+            android:typeface="serif"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="next stage"
+
+            android:background="@drawable/button_pressed"
+            android:id="@+id/stagetwo_winning_alert_button"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="130dp" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:id="@+id/stagetwo_gameover_alert"
+        android:background="@drawable/game_over_3"
+        android:layout_marginTop="150dp" android:layout_gravity="center_horizontal|top">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="start again"
+            android:textSize="25dp"
+            android:typeface="monospace"
+            android:id="@+id/stagetwo_game_over_button"
+            android:layout_gravity="center_horizontal|bottom"></TextView>
+        <!--<Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Restart"
+            android:id="@+id/stagetwo_game_over_button"
+            android:background="@drawable/button_pressed"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="80dp" />
+   --> </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/stage_two_lastturn_frame"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/pic8"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="this will be your last turn to play..."
+            android:id="@+id/textView5"
+            android:gravity="center"
+            android:typeface="monospace"
+            android:textColor="@android:color/black"
+            android:textSize="30dp"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="40dp" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/stage_two_lastturn_button"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/button_pressed"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/stage_two_lost_turns_frame"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:layout_marginTop="150dp"
+        android:background="@drawable/pic11"
+        android:layout_gravity="center_horizontal|top">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="you lost your all turns... play again.."
+            android:id="@+id/textView6"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:typeface="monospace"
+            android:textColor="@android:color/white"
+            android:layout_gravity="center_horizontal|top"
+            android:layout_marginTop="30dp" />
+
+        <Button
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Button"
+            android:id="@+id/stage_two_lost_turn_button"
+            android:layout_gravity="center_horizontal|bottom"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_pressed"/>
+
+         />
+
+       <!-- <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="start again"
+            android:textSize="25dp"
+          android:textColor="@android:color/white"
+            android:typeface="monospace"
+            android:layout_gravity="center_horizontal|bottom"></TextView>-->
+
+    </FrameLayout>
+
+</FrameLayout>

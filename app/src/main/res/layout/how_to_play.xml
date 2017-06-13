@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic18">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+
+            >
+            <TextView
+                android:text="how to play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView11"
+                android:textSize="40dp"
+                android:typeface="monospace"
+                android:gravity="center_horizontal"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:text="1.there are multiple tiles with multiple colour
+ By doing a single tap on tile we hve to pic the color
+"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:textSize="30dp"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:typeface="monospace"
+                android:layout_marginTop="20dp"/>
+
+            <TextView
+                android:text="2. long tap on another tile to which we have to apply that color to "
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:textColor="#ffffff"
+                android:typeface="monospace"
+                android:gravity="center"/>
+            <TextView
+                android:text="3.than again long tap on same tile to apply that colour on the previous tile."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView14"
+                android:textSize="30dp"
+                android:layout_marginTop="5dp"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textColor="#ffffff"/>
+
+            <TextView
+                android:text="4.same procedure we have to do till we fill all tiles with the same colour."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView15"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textColor="#ffffff"/>
+
+
+
+            <TextView
+                android:text="5. And while filling the tiles with colour we also have to look at the timer which lets us to finish the task in given time."
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView16"
+                android:textSize="30dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:typeface="monospace"
+                android:textColor="#ffffff"/>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" next "
+                android:textColor="#ffffff"
+                android:id="@+id/nextbutton"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/pressed_effect"
+                />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+</LinearLayout>

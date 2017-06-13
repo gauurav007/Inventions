@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic22">
+
+<!--
+    <android.support.v7.widget.Toolbar
+        android:background="@android:color/holo_orange_dark"
+        android:id="@+id/stagethreetools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <FrameLayout
+
+            android:layout_height="match_parent"
+            android:layout_width="match_parent">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="MediumText"
+                android:id="@+id/stagethreetextView2"
+                android:layout_gravity="left"
+                android:layout_marginRight="25dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                android:textColor="@android:color/white"
+                android:gravity="left" />
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Medium Text"
+                android:id="@+id/stagethreetextView"
+                android:textSize="20dp"
+                android:typeface="monospace"
+                android:layout_marginRight="10dp"
+                android:textColor="@android:color/white"
+                android:layout_gravity="right|top" />
+
+
+
+
+        </FrameLayout>
+
+    </android.support.v7.widget.Toolbar>
+-->
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_gravity="bottom">
+
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:id="@+id/framedesign1"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_light"
+                android:layout_gravity="right"></LinearLayout>
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/framedesign3"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_bright"
+                android:layout_gravity="right"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/framedesign2"
+                android:orientation="vertical"
+                android:layout_width="100dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_red_dark"
+                android:layout_gravity="right"
+                android:layout_marginRight="100dp"></LinearLayout>
+
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/framedesign4"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/darker_gray"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/framedesign5"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/framedesign6"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_dark"></LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/framedesign7"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_blue_dark"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/framedesign8"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_red_dark"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/framedesign9"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_green_light"></LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/framedesign10"
+                android:orientation="vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@android:color/holo_orange_light"></LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/stagethree_threadlayout"
+        android:orientation="vertical"
+        android:layout_width="15dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@android:color/holo_blue_bright"></LinearLayout>
+    <LinearLayout
+        android:id="@+id/stagethree_timeplatelayout"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="80dp"
+        android:layout_gravity="center_horizontal|top"
+        android:background="@android:color/holo_blue_bright"
+        android:layout_marginTop="50dp">
+
+
+        <TextView
+
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Letss Goo"
+
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+            />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Medium Text"
+            android:id="@+id/stagethreetextView"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:gravity="center_horizontal"
+            android:textColor="@android:color/white"
+             />
+    </LinearLayout>
+
+    <!--<TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Text"
+        android:id="@+id/stagethreetextView2"
+        android:layout_gravity="left|top" />
+-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/stagefourrr_yourtime_layout"
+        android:layout_width="110dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/holo_orange_light"
+        android:layout_gravity="center_horizontal|top">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="New Text"
+            android:id="@+id/stagethreetextView2"
+            android:gravity="center_horizontal"
+            android:typeface="monospace"
+            android:textSize="25dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

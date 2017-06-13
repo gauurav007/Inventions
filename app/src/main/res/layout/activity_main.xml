@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="maps1.com.color_demo.MainActivity"
+    android:background="@android:color/black">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+        </Button>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:background="@android:color/holo_blue_bright">
+
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal">
+
+            <FrameLayout
+                android:id="@+id/frame11"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_red_dark"></FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame12"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_orange_dark"></FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_gravity="center_horizontal">
+
+            <FrameLayout
+                android:id="@+id/frame13"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_purple"></FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/frame14"
+                android:layout_width="190dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/holo_blue_light"></FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</FrameLayout>

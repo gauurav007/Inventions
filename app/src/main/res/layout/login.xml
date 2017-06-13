@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+ <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/pic31">
+
+     <de.hdodenhof.circleimageview.CircleImageView
+         android:id="@+id/mypic"
+        android:layout_height="250dp"
+        android:layout_width="250dp"
+        android:src="@mipmap/camerara"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center_horizontal">
+        </de.hdodenhof.circleimageview.CircleImageView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/mybutton"
+        android:layout_height="70dp"
+        android:layout_width="70dp"
+        android:background="@android:color/holo_orange_dark"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="170dp"
+        app:backgroundTint="#ffffff"
+        android:src="@mipmap/camerara">
+
+    </android.support.design.widget.FloatingActionButton>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:orientation="vertical"
+        android:layout_gravity="bottom">
+
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:id="@+id/editText"
+            android:layout_marginTop="30dp"
+            android:hint="          Player name"
+            android:typeface="monospace"
+            android:background="@android:drawable/alert_light_frame"
+            android:layout_gravity="center_horizontal" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/editText2" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play Now"
+            android:textColor="#ffffff"
+            android:id="@+id/loginbutton"
+            android:textSize="20dp"
+            android:typeface="monospace"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+           android:background="@drawable/pressed_effect"
+            />
+
+    </LinearLayout>
+</FrameLayout>
